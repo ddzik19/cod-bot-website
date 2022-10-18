@@ -1,4 +1,4 @@
-import TextInput from "../components/text-input";
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import Button from "../components/button";
 
 export default function Footer() {
@@ -11,13 +11,13 @@ export default function Footer() {
 			</div>
 			<div className="w-full"></div>
 			<ul className="md:text-right list-none text-[#b3b8cd] footer-list">
-				<li className="hover:cursor-pointer p-1">
-					<a>dev Discord</a>
+				<li className="hover:cursor-pointer p-1 hover:text-white">
+					<a>Our Discord</a>
 				</li>
-				<li className="hover:cursor-pointer p-1">
+				<li className="hover:cursor-pointer p-1 hover:text-white">
 					<a>Add to server</a>
 				</li>
-				<li className="hover:cursor-pointer p-1">
+				<li className="hover:cursor-pointer p-1 hover:text-white">
 					<a>FAQ</a>
 				</li>
 			</ul>

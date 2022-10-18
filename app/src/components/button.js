@@ -1,7 +1,7 @@
 const Button = ({children}) => {
 	return (
 		<button
-			className="flex inline w-fit bg-[#FFA100] rounded-lg py-3 px-9 text-white"
+			className="primary w-fit rounded-lg py-3 px-9 text-white"
 			type="submit"
 			name="button"
 			value="Add to server"
