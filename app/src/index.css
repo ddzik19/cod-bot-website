@@ -26,10 +26,4 @@ body {
 		Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
-
 /* Mobile view */
-@media only screen and (max-width:600px) {
-	.footer {
-		display: none;
-	}
-}
