@@ -5,7 +5,7 @@ import Layout from "./partials/layout";
 function App() {
 	return (
 		<Layout>
-			{/* <Navbar/> */}
+			<Navbar/>
 			<Footer />
 		</Layout>
 	);

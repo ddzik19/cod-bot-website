@@ -1,7 +1,8 @@
-const Button = ({children}) => {
+const Button = ({ children, className, href }) => {
 	return (
 		<button
-			className="primary w-fit rounded-lg py-3 px-9 text-white"
+			href={href}
+			className={`button w-fit rounded-lg py-3 px-9 text-white ${className}`}
 			type="submit"
 			name="button"
 			value="Add to server"
