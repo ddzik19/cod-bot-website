@@ -18,6 +18,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+.video{
+	object-fit: cover;
+	position: absolute;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	opacity:30%;
+}
 .command{
 	color: #ffa100;
 	padding-left: 2em;

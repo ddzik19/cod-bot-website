@@ -1,9 +1,10 @@
+import React from "react";
 import Footer from "./partials/footer";
 import Layout from "./partials/layout";
 import Banner from "./partials/banner";
 import Header from "./components/header";
-import React from "react";
 import ContentBlock from "./partials/content-block";
+import ContactForm from "./partials/contact-form";
 
 const rows = [
 	{
@@ -39,12 +40,12 @@ function App() {
 			<ContentBlock className={"text-center"}>
 				{/* Commands */}
 				<Header>Commands</Header>
-				<div className="bg-[#323443] rounded-lg shadow-lg  mx-[50px]">
-					<table className="md:w-[800px]">
+				<div className="bg-[#323443] rounded-lg shadow-lg md:px-[200px] mx-2 px-2 py-2">
+					<table>
 						{rows.map((row) => {
 							return (
 								<tr>
-									<th className="command md:w-[400px] text-left">{row.command}</th>
+									<th className="command text-left">{row.command}</th>
 									<td className="w-[450px] text-left">{row.desc}</td>
 								</tr>
 							);
@@ -52,17 +53,10 @@ function App() {
 					</table>
 				</div>
 			</ContentBlock>
-			<ContentBlock className={"text-center"}>
-				{/* Video player */}
-				<video autoPlay muted loop>
-					<source
-						src="https://www.youtube.com/watch?v=0E44DClsX5Q&t=5s&ab_channel=CallofDuty"
-						type="video/mp4"
-					/>
-				</video>
-			</ContentBlock>
 			<ContentBlock>{/* Gallery */}</ContentBlock>
-			<ContentBlock>{/* Contact form */}</ContentBlock>
+			<ContentBlock>
+				<ContactForm />
+			</ContentBlock>
 			<Footer />
 		</Layout>
 	);
