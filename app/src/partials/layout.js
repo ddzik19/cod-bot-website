@@ -1,6 +1,6 @@
 const Layout = ({children}) => {
     return(
-        <div className="md:mx-[350px] font-medium">
+        <div className="fade-in font-medium">
             {children}
         </div> 
     )
