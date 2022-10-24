@@ -22,7 +22,7 @@ const Banner = () => {
 				pharetra pharetra.
 			</SubHeading>
 			<div className="md:pt-5 pb-10">
-				<Button children={"Get COD Bot"} className="banner-btn p-3 mt-5" />
+				<Button children={"Add Commander-B"} className="banner-btn p-3 mt-5" />
 			</div>
 		</div>
 	);
