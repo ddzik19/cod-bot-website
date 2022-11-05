@@ -2,7 +2,7 @@ import React from "react";
 const List = ({href, children}) => {
     return(
         <li className="p-2 md:hover:cursor-pointer md:hover:text-white">
-            <a href={href}>{children}</a>
+            <a target="_blank" href={href} rel="noreferrer">{children}</a>
         </li>
     )
 }
