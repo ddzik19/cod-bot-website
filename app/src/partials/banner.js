@@ -12,17 +12,15 @@ const Banner = () => {
 					type="video/mp4"
 				/>
 			</video>
-			<Header>
-				Lorem ipsum dolor
-				<br /> dolor sit amet dolor sit amet
+			<Header >
+				Power Up
+				<br /> Your Loadout
 			</Header>
 			<SubHeading>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed leo
-				posuere, volutpat sem a, vulputate neque. Morbi viverra tortor id dolor
-				pharetra pharetra.
+				With Commander-B, find what you want and need 10x faster than you would traditionally. 
 			</SubHeading>
 			<div className="md:pt-5 pb-10">
-				<Button children={"Add Commander-B"} className="banner-btn p-3 mt-5" />
+				<Button children={"Add Commander-B"} href={"https://discord.com/api/oauth2/authorize?client_id=934543703572369448&permissions=0&scope=bot"} className="banner-btn p-3 mt-5" />
 			</div>
 		</div>
 	);

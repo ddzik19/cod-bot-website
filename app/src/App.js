@@ -26,7 +26,6 @@ function App() {
 			</ContentBlock>
 			<ContentBlock>
 				{/* FAQ Section */}
-				<Header children={"FAQ"} />
 				<Faq />
 			</ContentBlock>
 			<ContentBlock>

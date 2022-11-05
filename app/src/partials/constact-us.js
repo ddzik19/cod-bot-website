@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Button from "../components/button";
 import contact_image from "../assets/images/unnamed.png";
